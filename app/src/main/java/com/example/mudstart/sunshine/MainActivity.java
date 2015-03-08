@@ -19,7 +19,7 @@ private final String LOG_TAG = MainActivity.class.getSimpleName();
         setContentView(R.layout.activity_main);
         if (savedInstanceState == null) {
             int commit = getSupportFragmentManager().beginTransaction()
-                    .add(R.id.container, new com.example.android.sunshine.app.ForecastFragment())
+                    .add(R.id.container, new com.example.mudstart.sunshine.ForecastFragment())
                     .commit();
         }
     }
